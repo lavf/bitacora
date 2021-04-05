@@ -1,0 +1,40 @@
+{
+    "main": {
+        "title":"Hualién 花蓮",
+        "headline":"playa, mercado nocturno y bicicleta",
+        "description":"Taiwán es uno de los pocos países que ha superado mis expectativas y la ciudad de Hualién es una de las razones. Banada por el pacífico y con gente muy gentil, pude recorrer varios de sus rincones y disfrutar de sus delicias sin apuros",
+        "instagram":"https://instagram.com/gris.grau/",
+        "wordpress":"https://grisgrau.wordpress.com/",
+        "background":"images/hualien1.jpg",
+        "website":"https://leticiavalladares.me/",
+        "logo":"favicon.png"
+    },
+    "intro": {
+        "headline":"Templos escondidos, mercados nocturnos y lluvia",
+        "description":"Recuerdo haber visto muchas fotos de Hualién, debido a que me llamó la atención su arquitectura futurística.",
+        "details_one": "Recuerdo haber visto muchas fotos de Singapur, debido a que me llamó la atención su arquitectura futurística. Debo decir que las fotos no le hacen justicia, en cada semáforo me detuve a contemplar las edificaciones y como se lo podrán imaginar, nunca tuve suficiente tiempo, debido a que me llamó la atención su arquitectura futurística. Debo decir que las fotos no le hacen justicia, en cada semáforo me detuve a contemplar las edificaciones y como se lo podrán imaginar, nunca tuve suficiente tiempo, Recuerdo haber visto muchas fotos de Singapur, debido a que me llamó la atención su arquitectura futurística. Debo decir que las fotos no le hacen justicia, en cada semáforo me detuve a contemplar las edificaciones y como se lo podrán imaginar, nunca tuve suficiente tiempo, debido a que me llamó la atención su arquitectura futurística",
+        "details_two": "Recuerdo haber visto muchas fotos de Singapur, debido a que me llamó la atención su arquitectura futurística. Debo decir que las fotos no le hacen justicia, en cada semáforo me detuve a contemplar las edificaciones y como se lo podrán imaginar, nunca tuve suficiente tiempo, debido a que me llamó la atención su arquitectura futurística. Debo decir que las fotos no le hacen justicia, en cada semáforo me detuve Debo decir que las fotos no le hacen justicia, en cada semáforo me detuve a contemplar las edificaciones y como se lo podrán imaginar, nunca tuve suficiente tiempo"
+    },
+    "trip": {
+        "image_ver_one": "images/hualien5.jpg",
+        "image_ver_two": "images/hualien10.jpg",
+        "image_ver_three": "images/hualien71.jpg",
+        "image_hor_one": "images/hualien8.jpg",
+        "image_hor_two": "images/hualien3.jpg",
+        "image_hor_three": "images/hualien6.jpg",
+        "image_hor_four": "images/hualien9.jpg",
+        "image_hor_five": "images/hualien2.jpg",
+        "image_hor_six": "images/hualien4.jpg",
+        "copyright": "©leti.recha"
+    },
+    "illustration": {
+        "illustration": "images/dumplings.jpg"
+    },
+    "contact": {
+        "gif": "images/road.gif",
+        "instagram":"https://instagram.com/gris.grau/",
+        "email":"mailto:lavf.techlabsberlin@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/leticia-valladares-f/",
+        "github":"https://github.com/lavf"
+    }
+}

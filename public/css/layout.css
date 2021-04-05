@@ -1,0 +1,290 @@
+@import url("fonts.css");
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(199, 255, 236); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(143, 211, 188); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(91, 224, 180); 
+}
+
+body {
+  color: aliceblue;
+  font-family: 'kiwimaru-regular', serif;
+}
+
+a {
+  color:rgb(199, 255, 236);
+  font-weight: 800;
+}
+
+#header .row-banner .banner-text {
+  padding-top: 10%;
+}
+
+
+
+#nav-wrap > a.mobile-btn {
+  display: none;
+}
+
+mark {
+  background-color: rgba(3, 26, 22, 0.527);
+  color: aquamarine;
+}
+
+#home h1 {
+  padding-top: 7%;
+  text-align: center;
+  font-size: 50px !important;
+  font-weight: normal;
+}
+
+#home h2 {
+  text-align: center;
+  font-size: 30px !important;
+ 
+}
+
+#home h3 {
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  color: #fdb99b;
+}
+
+#logo {
+  width: 18px !important;
+}
+
+#home #page1 .background-img {
+  position: fixed;
+  z-index: -1;
+  max-height: 1000px;
+  bottom:0;
+  left:0;
+  filter: hue-rotate(90deg);
+}
+
+#nav-wrap {
+  color:azure;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+#nav-wrap ul{
+display: inline-block;
+list-style-position: unset;
+}
+
+#nav-wrap li, #nav-wrap a {
+  display: inline;
+  min-height: 18px;
+  padding: 13px;
+  text-align: center;
+  list-style: none outside;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+#home .social {
+  padding-bottom: 10%;
+}
+
+#gradient-horizontal {
+  --color-stop-1: #a770ef;
+  --color-stop-2: #cf8bf3;
+  --color-stop-3: #fdb99b;
+}
+
+#gradient-vertical {
+  --color-stop-1: #bbf3df;
+  --color-stop-2: #aff5db;
+  --color-stop-3: #96f3d6;
+}
+
+#home .row-banner .banner-text .social svg {
+  height:32px;
+  padding-left: 45%; 
+  padding-right: 45%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 2%;
+  fill: url(#gradient-horizontal) gray;
+}
+
+#home .row-banner .banner-text .social svg:hover {
+  fill: rgb(142, 247, 220);
+}
+
+#index {
+  background-color: rgb(83, 180, 148);
+  padding-top: 7.5%;
+  padding-bottom: 7.5%;
+  overflow: hidden;
+}
+
+#index, p {
+ padding-left: 5%;
+ padding-right: 5%;
+ text-align: center;
+}
+
+.opaque {
+  background-color: rgb(154, 209, 191);
+}
+
+.container .mySlides {
+  display: none;
+}
+
+#trip img{
+  width:100%;
+  vertical-align: middle;
+}
+
+
+#trip .numbertext {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+#trip .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#trip .column {
+  float: left;
+  width: 49.99%;
+}
+
+#wrap {
+  width:100%;
+  height:fit-content;
+}
+.big_col, .medium_col, .small_col{
+  height:fit-content;
+  float:left;
+}
+#trip img {
+  display:block;
+  margin:0;
+  padding:0;
+  border:none;
+  float:left;
+}
+#trip .big_col {
+  width:49.99%;
+}
+#trip .medium_col{
+  width:29.9%;
+}
+#trip .small_col{
+  width:auto;
+  height: 93.33%;
+}
+.big_img img {
+  width:19.9%;
+  height:auto;
+}
+.medium_img img {
+  width:29.9%;
+  height:29.9%;
+}
+.small_img img {
+  width:auto;
+  height:93.9%;
+}
+
+#illustration {
+  background-color: antiquewhite;
+  
+}
+
+#illustration .illustration-box img{
+  vertical-align: middle;
+  position: relative;
+  width:100%;
+  opacity: 0.44;
+  background-color: antiquewhite;
+}
+
+#illustration .illustration-box > p{
+  position: absolute;
+}
+
+#contact {
+  background-color: rgb(139, 182, 156);
+}
+
+#contact ul {
+  list-style: none outside;
+  padding-top: 5%;
+  overflow: hidden;
+  margin: 0;
+}
+
+#contact .row {
+  display: block;
+  text-align: center;
+}
+#contact .row img {
+  padding-top: 7%;
+  max-width: 80%;
+  opacity: 0.35;
+}
+
+#contact .copyright {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1.8%;
+  text-align: center;
+}
+
+#contact .social {
+  display: block;
+  text-align: central;
+}
+
+#contact svg {
+  height:32px;
+  display: inline-block;
+  padding-left: .8rem;
+  padding-right: 0.8rem;
+  padding-top: 2%;
+  fill: url(#gradient-vertical) gray;
+}
+
+#contact .social ul {
+  padding-inline-start: 0px !important;
+  text-align: center;
+  width:100%;
+}
+
+#contact .social {
+  padding-bottom: 5%;
+}

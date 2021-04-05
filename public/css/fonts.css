@@ -1,0 +1,25 @@
+/* Kiwi Maru */
+@font-face {
+    font-family: 'kiwimaru-regular';
+    src: url('fonts/kiwimaru/KiwiMaru-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'kiwimaru-medium';
+    src: url('fonts/kiwimaru/KiwiMaru-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kiwimaru-light';
+    src: url('fonts/kiwimaru/KiwiMaru-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* SVG Simple Icons */
+@font-face {
+    font-family: 'simple icons';
+    src: url('fonts/instagram.svg') format('svg');
+}
