@@ -7,17 +7,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(199, 255, 236); 
+  background: rgb(199, 255, 236);
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(143, 211, 188); 
+  background: rgb(143, 211, 188);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(91, 224, 180); 
+  background: rgb(91, 224, 180);
 }
 
 body {
@@ -55,7 +55,7 @@ mark {
 #home h2 {
   text-align: center;
   font-size: 30px !important;
- 
+
 }
 
 #home h3 {
@@ -72,7 +72,7 @@ mark {
 #home #page1 .background-img {
   position: fixed;
   z-index: -1;
-  max-height: 1000px;
+  max-height: 1500px;
   bottom:0;
   left:0;
   filter: hue-rotate(90deg);
@@ -104,7 +104,7 @@ list-style-position: unset;
   letter-spacing: .5px;
   text-transform: uppercase;
   text-decoration: none;
-  
+
 }
 #home .social {
   padding-bottom: 10%;
@@ -124,7 +124,7 @@ list-style-position: unset;
 
 #home .row-banner .banner-text .social svg {
   height:32px;
-  padding-left: 45%; 
+  padding-left: 45%;
   padding-right: 45%;
   display: inline-block;
   text-align: center;
@@ -222,7 +222,7 @@ list-style-position: unset;
 
 #illustration {
   background-color: antiquewhite;
-  
+
 }
 
 #illustration .illustration-box img{

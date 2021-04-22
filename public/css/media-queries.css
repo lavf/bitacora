@@ -14,11 +14,11 @@
       filter: hue-rotate(90deg);
     }
 
-   
+
     #nav-wrap {
        font: 12px 'kiwimaru-regular', serif;
        background: transparent;
-       letter-spacing: 1.5px;  
+       letter-spacing: 1.5px;
        width: auto;
        position: fixed;
        top: 0;
@@ -30,17 +30,17 @@
         position: relative;
         border: none;
         float: right;
-        
- 
+
+
        font: 0/0 a;
        text-shadow: none;
        color: transparent;
- 
+
        position: relative;
        top: 0px;
        right: 30px;
     }
-    
+
     #nav-wrap > a:before,
     #nav-wrap > a:after {
         position: absolute;
@@ -51,24 +51,24 @@
         content: '';
      }
     #nav-wrap > a:after { top: 60%; }
- 
+
     /* toggle buttons */
      #nav-wrap:not( :target ) > a:first-of-type,
      #nav-wrap:target > a:last-of-type  {
         display: block;
      }
- 
+
     /* hide menu panel */
     #nav-wrap ul#nav {
        height: auto;
          display: none;
        clear: both;
-       width: auto; 
-       float: right; 
+       width: auto;
+       float: right;
        top: 12px;
        right: 0;
     }
- 
+
     /* display menu panels */
      #nav-wrap:target > ul#nav	{
         display: block;
@@ -77,27 +77,27 @@
        margin: 0 30px;
        clear: both;
     }
- 
+
     ul#nav li {
        display: block;
-       height: auto;      
-       margin: 0 auto; 
-       padding: 0 4%;           
+       height: auto;
+       margin: 0 auto;
+       padding: 0 4%;
        text-align: left;
        border-bottom: 1px solid #2D2E34;
-       border-bottom-style: dotted; 
+       border-bottom-style: dotted;
     }
-   
-    ul#nav li a {  
-       display: block;    
+
+    ul#nav li a {
+       display: block;
        margin: 0;
-       padding: 0;      
-       margin: 12px 0; 
+       padding: 0;
+       margin: 12px 0;
        line-height: 16px; /* reset line-height from 48px */
        border: none;
-    }  
- 
- 
+    }
+
+
     /* Header Styles
     -------------------------------------------------------------------- */
     #home .banner {
@@ -109,18 +109,18 @@
     #home .banner-text h3 {
        font: 16px/1.9em 'kiwimaru-regular', serif;
     }
- 
+
     /* header social links */
     #home .social {
        margin: 18px 0 24px 0;
        font-size: 15px;
-       line-height: 36px;      
+       line-height: 36px;
     }
     #home .social li { margin: 0 10px; }
- 
+
      /* scrolldown link */
-    #home .scrolldown { display: none; } 
- 
+    #home .scrolldown { display: none; }
+
     /* Call To Action Section
     /* ----------------------------------------------------------------- */
     #call-to-action { text-align: center; }
@@ -133,31 +133,31 @@
     #call-to-action h1 span { display: block; }
     #call-to-action .header-col h1:before { content: none; }
     #call-to-action p { font-size: 15px; }
- 
- 
+
+
 
     /* Control Nav */
     .flex-control-nav {
        text-align: center;
        margin-left: -30px;
     }
- 
- 
+
+
     /* contact Section
     ----------------------------------------------------------------------- */
     #contact { padding-bottom: 66px; }
     #contact .section-head { margin-bottom: 12px; }
     #contact .section-head h1 {
-       font: 20px/24px 'kiwimaru-regular', serif;            
-       text-align: center;   
+       font: 20px/24px 'kiwimaru-regular', serif;
+       text-align: center;
        margin-bottom: 30px;
- 
-    }  
+
+    }
     #contact h1 span { display: block; }
     #contact .header-col { padding-top: 0; }
     #contact .header-col h1:before { content: none;	}
     #contact .section-head p.lead { text-align: center;}
- 
+
 #contact .social {
    text-align: center;
 
@@ -170,9 +170,8 @@
       fill: url(#gradient-vertical) gray;
 
     }
- 
- 
- 
- 
- }
 
+
+
+
+ }
